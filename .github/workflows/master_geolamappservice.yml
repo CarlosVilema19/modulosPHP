@@ -56,5 +56,5 @@ jobs:
         with:
           app-name: 'geolamappservice'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_89B89234F06D46DCB02A8BC30B66FE89 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_94220F7B9D7B4B06B5126455E120559B }}
           package: .
