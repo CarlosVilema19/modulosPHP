@@ -1,10 +1,10 @@
 <?php
 include 'conexion.php';
-$usu_usuario=$_POST['usuario'];
-$usu_password=$_POST['password'];
+//$usu_usuario=$_POST['usuario'];
+//$usu_password=$_POST['password'];
 
-//$usu_usuario="carlos@gmail.com";
-//$usu_password="12345";
+$usu_usuario="carlos@gmail.com";
+$usu_password="12345";
 
 $sentencia=$conexion->prepare("SELECT * FROM geolamdb.usuario WHERE email=? AND contrasenia=?");
 $sentencia->bind_param('ss',$usu_usuario,$usu_password);
