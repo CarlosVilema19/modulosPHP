@@ -1,7 +1,7 @@
 <?php
 $hostname='geolamserver.mysql.database.azure.com';
 $database='geolamdb';
-$username='geolamadmin';
+$username='azure_superuser@geolamadmin';
 $password='Riobamba2';
 
 $conexion=new mysqli($hostname,$username,$password,$database);
