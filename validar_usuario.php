@@ -6,7 +6,7 @@ $usu_contrasenia=$_POST['contrasenia'];
 //$usu_email="carlos@gmail.com";
 //$usu_contrasenia="12345";
 
-$sentencia=$conexion->prepare("SELECT * FROM usuario WHERE email=? AND contrasenia=?");
+$sentencia=$conexion->prepare("SELECT * FROM geolamdb.usuario WHERE email=? AND contrasenia=?");
 $sentencia->bind_param('ss',$usu_email,$usu_contrasenia);
 $sentencia->execute();
 
