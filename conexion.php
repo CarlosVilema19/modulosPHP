@@ -1,7 +1,7 @@
 <?php
 $hostname='localhost';
 $database='geolamdb';
-$username='geolamadmin';
+$username='superuser@geolamadmin';
 $password='Riobamba2';
 
 /*$hostname='localhost';
