@@ -1,5 +1,5 @@
 <?php
-$hostname='geolamserver.mysql.database.azure.com';
+$hostname='localhost';
 $database='geolamdb';
 $username='geolamadmin';
 $password='Riobamba2';
