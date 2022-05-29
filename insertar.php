@@ -1,6 +1,6 @@
 <?php
 
-$conexion =mysqli_connect('localhost','ftawmurs_geolamadmin','Riobamba22','ftawmurs_geolamdb');
+$conexion =mysqli_connect('geolamserver.mysql.database.azure.com','geolamadmin','Riobamba2','geolamdb');
 //$conexion =mysqli_connect('localhost','root','','geolam');
 
 if(!$conexion)
